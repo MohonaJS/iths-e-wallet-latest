@@ -43,8 +43,8 @@ export default {
                <div>SIM</div>
            </div>
 
-           <div>
-               {{Logo}}
+           <div style = "padding: 1rem;">
+               {{Logo.toUpperCase()}}
            </div>
 
         <!--    <div>
