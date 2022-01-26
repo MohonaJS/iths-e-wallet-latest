@@ -44,7 +44,7 @@ export default {
            </div>
 
            <div style = "padding: 1rem;">
-               {{Logo.toUpperCase()}}
+               {{Logo}}
            </div>
 
         <!--    <div>

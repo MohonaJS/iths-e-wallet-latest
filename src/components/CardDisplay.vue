@@ -1,6 +1,7 @@
 <script>
 import Card from './Card.vue'
 import CardGroup from './CardGroup.vue'
+
 export default {
     components:{Card, CardGroup},
 
@@ -20,9 +21,9 @@ export default {
    <div>
       <header>
            <h1>E-WALLET</h1>
-
            <div>ACTIVE CARD</div>
       </header>
+
        <Card 
          class="card" 
          background-color = "orange" 
@@ -34,7 +35,8 @@ export default {
          :valid-year="activeCard.valid_till_year"
          color="black"
        ></Card>
-       <CardGroup @selected = "changeSelected"></CardGroup>
+
+        <CardGroup @selected = "changeSelected"></CardGroup>
 
         <button class="add-card-button" @click="$emit('change-view')">ADD A NEW CARD</button>
    </div>
@@ -43,17 +45,14 @@ export default {
 <style scoped>
 
     button {
-        position: absolute;
-        bottom: 2rem;
          background-color: teal;
-         border: 4px solid white;
          color: white;
          padding: 15px 32px;
-         padding: 15px;
-         text-align: center;
+         margin-top: 1rem;
          font-size: 16px;
-         
-    }
+         width: 100%;
+        }
+        
     .card {
         margin-bottom: 2rem;
     }

@@ -1,19 +1,22 @@
 <script>
 import Card from './Card.vue'
+
 export default {
   components: {Card},
+
   data(){ return {  
       colors: ['black', 'purple', 'darked']
   }},
+
     methods: {  
       getCards () {  
         const cards = JSON.parse(window.localStorage.getItem('cards'))
         return cards
       },
-
     }
 }
 </script>
+
 <template>
   <div class="card-wrapper">
 
@@ -36,11 +39,10 @@ export default {
 
 
 <style scoped>
+
   .card-wrapper {
     position: relative;
     background-color: rgb(115, 163, 163);
   }
- /*  .card {
-    position: absolute;
-  } */
+ 
 </style>

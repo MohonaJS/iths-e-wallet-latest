@@ -5,7 +5,6 @@
 
       <CardForm v-else  @change-view = "visibleArea = 'card_display'"> </CardForm>
     </div>
-
   </div>
 </template>
 
@@ -15,6 +14,7 @@
 
 export default {
   name: 'App',
+
   components: {
     CardDisplay,
     CardForm
@@ -33,12 +33,12 @@ export default {
 </script>
 
 <style scoped>
+
 #app {
   text-align: center;
   margin-top: 60px;
   color: rebeccapurple;
   text-align: center;
- 
 }
-   
+  
 </style>
