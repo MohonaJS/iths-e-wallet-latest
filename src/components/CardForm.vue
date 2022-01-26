@@ -59,7 +59,7 @@ export default {
             :valid-year= "year"
             :Logo= "card.vendor"
       ></Card>
-      
+
       <form @submit.prevent="handleSubmit">
           <div>
               <label for>CARD NUMBER</label>
@@ -81,8 +81,10 @@ export default {
           <div>
               <label for="">VENDOR</label>
               <select name="" id="" v-model="card.vendor">
-                  <option value="visa">VISA</option>
-                  <option value="mastercard">MASTER</option>
+                  <option value="bitcoin">Bitcoin</option>
+                  <option value="blockchain">Blockchain</option>
+                  <option value="evil">Evil</option>
+                  <option value="ninja">Ninja</option>
               </select>
           </div>
           <button type="submit" > ADD  CARD </button>

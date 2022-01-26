@@ -3,7 +3,7 @@
     <div>
       <CardDisplay v-if="visibleArea === 'card_display'" @change-view = "handleChangeView"> </CardDisplay> 
 
-      <CardForm v-else  @change-view = "visibleArea = 'card_display'"></CardForm>
+      <CardForm v-else  @change-view = "visibleArea = 'card_display'"> </CardForm>
     </div>
 
   </div>
@@ -23,7 +23,7 @@ export default {
   data(){ return {  
       visibleArea : "card_display"
   }},
-  
+
   methods: {  
     handleChangeView(){  
         this.visibleArea = 'form_display'

@@ -5,7 +5,7 @@ export default {
             default: 'gray'
         },
         Logo:{  
-            default : 'LOGO'
+            default : 'ninja'
         },
         cardNumber: { 
             default: 'XXXX XXXX XXXX XXXX'
@@ -43,7 +43,13 @@ export default {
                <div>SIM</div>
            </div>
 
-           <div style = "padding: 1rem;">{{Logo}}</div>
+           <div>
+               {{Logo}}
+           </div>
+
+        <!--    <div>
+               <img :src="require('../assets/'+Logo+'.svg')">
+           </div> -->
        </div>
        <div class="number">
            <div v-for="(number, index) in cardNumbers" :key="index">{{number}}</div>
