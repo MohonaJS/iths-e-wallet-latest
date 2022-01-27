@@ -24,6 +24,7 @@ export default {
            <div>ACTIVE CARD</div>
       </header>
 
+        <!-- ekhan theke information patahbo -->
        <Card 
          class="card" 
          background-color = "orange" 
@@ -52,7 +53,7 @@ export default {
          font-size: 16px;
          width: 100%;
         }
-        
+
     .card {
         margin-bottom: 2rem;
     }

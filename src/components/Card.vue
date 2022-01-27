@@ -23,7 +23,7 @@ export default {
             default: 'YY'
         },
         color: {  
-            default : 'white'
+            default : 'black'
         }
     },
 
