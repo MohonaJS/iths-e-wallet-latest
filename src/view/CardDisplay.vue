@@ -1,6 +1,6 @@
 <script>
-import Card from './Card.vue'
-import CardGroup from './CardGroup.vue'
+import Card from '../components/Card.vue'
+import CardGroup from '../components/CardGroup.vue'
 
 export default {
     components:{Card, CardGroup},
@@ -24,7 +24,6 @@ export default {
            <div>ACTIVE CARD</div>
       </header>
 
-        <!-- ekhan theke information patahbo -->
        <Card 
          class="card" 
          background-color = "orange" 
@@ -54,9 +53,7 @@ export default {
          width: 100%;
         }
 
-    .card {
-        margin-bottom: 2rem;
-    }
+   
     header { 
         height: 6rem;
     }

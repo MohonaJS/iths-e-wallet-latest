@@ -1,5 +1,5 @@
 <script>
-import Card from './Card.vue'
+import Card from '../components/Card.vue'
 
 export default {
     components:{Card},
@@ -12,7 +12,7 @@ export default {
             return this.card.valid_till.split('-')[0];
             }
     },
-
+    
     data(){
         return {  
           card: {  

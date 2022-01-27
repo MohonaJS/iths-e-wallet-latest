@@ -9,8 +9,8 @@
 </template>
 
 <script>
-  import CardDisplay from './components/CardDisplay'
-  import CardForm from './components/CardForm'
+  import CardDisplay from './view/CardDisplay.vue'
+  import CardForm from './view/CardForm.vue'
 
 export default {
   name: 'App',
@@ -36,7 +36,7 @@ export default {
 
 #app {
   text-align: center;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   color: rebeccapurple;
   text-align: center;
 }

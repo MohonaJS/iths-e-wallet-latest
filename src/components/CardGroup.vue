@@ -1,5 +1,5 @@
 <script>
-import Card from './Card.vue'
+import Card from '../components/Card.vue'
 
 export default {
   components: {Card},
@@ -41,7 +41,6 @@ export default {
 <style scoped>
 
   .card-wrapper {
-    position: relative;
     background-color: rgb(115, 163, 163);
   }
  
