@@ -43,10 +43,6 @@ export default {
                <div> <img src="../assets/chip.svg" alt=""> </div>
            </div>
 
-           <!-- <div style = "padding: 1rem;">
-               {{Logo}}
-           </div> -->
-
            <div>
                <img :src="require('../assets/'+Logo+'.svg')">
            </div>
@@ -83,10 +79,11 @@ export default {
     .card { 
         width: 100%;
         height: 15rem;
-        /* background-color: rgb(135, 56, 56); */
         color: aliceblue;
         border-radius: 5px;
         font-weight: bolder;
+        border: 2px solid rgb(94, 89, 89);
+        cursor: pointer;
         
     }
     .header {

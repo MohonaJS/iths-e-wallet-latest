@@ -36,7 +36,6 @@ export default {
 
 #app {
   text-align: center;
-  /* margin-top: 60px; */
   color: rebeccapurple;
   text-align: center;
 }

@@ -51,9 +51,9 @@ export default {
          margin-top: 2rem;
          font-size: 16px;
          width: 100%;
+         cursor: pointer;
         }
 
-   
     header { 
         height: 6rem;
     }

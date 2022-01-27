@@ -110,7 +110,7 @@ export default {
              background-color: teal;
              color: white;
              padding: 15px 32px;
-    
+            cursor: pointer;
              margin-top: 1rem;
             font-size: 16px;
             width: 100%; background-color: teal;
