@@ -39,17 +39,17 @@ export default {
     <div class="card" :style="'background-color:'+ BackgroundColor  + ';color: ' + color ">
        <div class="header">
            <div style = "padding: 1rem;">
-               <div>WIFI</div>
-               <div>SIM</div>
+               <div> <img src="../assets/wifi.svg" alt=""> </div>
+               <div> <img src="../assets/chip.svg" alt=""> </div>
            </div>
 
-           <div style = "padding: 1rem;">
+           <!-- <div style = "padding: 1rem;">
                {{Logo}}
-           </div>
-
-        <!--    <div>
-               <img :src="require('../assets/'+Logo+'.svg')">
            </div> -->
+
+           <div>
+               <img :src="require('../assets/'+Logo+'.svg')">
+           </div>
        </div>
        <div class="number">
            <div v-for="(number, index) in cardNumbers" :key="index">{{number}}</div>
@@ -72,7 +72,9 @@ export default {
     .footer{
         margin-top: 2rem;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
+        padding: 0.5rem;
     }
     .number {
         display: flex;
@@ -80,8 +82,8 @@ export default {
     }
     .card { 
         width: 100%;
-        height: 10rem;
-        background-color: rgb(135, 56, 56);
+        height: 15rem;
+        /* background-color: rgb(135, 56, 56); */
         color: aliceblue;
         border-radius: 5px;
         font-weight: bolder;
@@ -89,7 +91,10 @@ export default {
     }
     .header {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
+        padding: 0.3rem;
+        
          
     }
     .number { 

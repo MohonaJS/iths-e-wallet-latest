@@ -41,7 +41,11 @@ export default {
 <style scoped>
 
   .card-wrapper {
-    background-color: rgb(115, 163, 163);
+   margin-top: 5rem;
+   display: grid;
+   grid-auto-rows: 3rem;
+   padding-bottom: 12rem;
+
   }
  
 </style>

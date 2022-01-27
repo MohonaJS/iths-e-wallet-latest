@@ -48,7 +48,7 @@ export default {
          background-color: teal;
          color: white;
          padding: 15px 32px;
-         margin-top: 1rem;
+         margin-top: 2rem;
          font-size: 16px;
          width: 100%;
         }
