@@ -2,7 +2,7 @@
 export default {
     props: {  
         BackgroundColor: {  
-            default: 'gray'
+            default: 'violetRed'
         },
         Logo:{  
             default : 'ninja'
