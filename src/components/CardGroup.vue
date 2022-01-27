@@ -5,7 +5,7 @@ export default {
   components: {Card},
 
   data(){ return {  
-      colors: ['gold', 'plum', 'orchid']
+      colors: ['gold', 'silver', 'orchid']
   }},
 
     methods: {  

@@ -2,7 +2,7 @@
 export default {
     props: {  
         BackgroundColor: {  
-            default: 'violetRed'
+            default: 'green'
         },
         Logo:{  
             default : 'ninja'
@@ -23,7 +23,7 @@ export default {
             default: 'YY'
         },
         color: {  
-            default : 'black'
+            default : 'white'
         }
     },
 
